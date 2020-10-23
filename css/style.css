@@ -1,0 +1,81 @@
+html
+{
+    height: 100%;
+}
+
+.navbar-default .navbar-brand 
+{
+    color: black;
+}
+
+body
+{
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: catamaran;
+}
+
+.center
+{
+    text-align: center;
+    padding-top: 15%;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+}
+
+#login
+{
+    min-width: 250px;
+    background-color:rgb(255,255,255,0.7);
+    padding:14px 14px 0;
+}
+
+#login .social-button
+{
+    margin: 12px 0;
+    overflow: hidden;
+}
+
+.btn-fb
+{
+  color: #fff;
+  background-color: #3b599d;
+}
+
+.btn-tw
+{
+   color: #fff;
+   background-color: #55acee;
+}
+
+.btn-fb:hover
+{
+  color: #fff;
+  background-color: #496ebc;
+}
+
+.btn-tw:hover
+{
+   color: #fff;
+   background-color:#496ebc;
+}
+
+
+@media (min-width:768px)
+{
+    h1{
+        background-color: skyblue;
+        opacity: 0.8;
+    }
+}
+
+.fa-stack-1x {
+    line-height: inherit;
+    color: chartreuse;
+}
